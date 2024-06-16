@@ -1,0 +1,8 @@
+{
+  "src": [
+    "pages/PLVInputPage",
+    "pages/PLVWebPage",
+    "pages/PLVEntrancePage",
+    "pages/PLVFeedWebPage"
+  ]
+}

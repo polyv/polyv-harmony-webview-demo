@@ -1,0 +1,10 @@
+{
+  "app": {
+    "bundleName": "net.plv.harmony.webdemo",
+    "vendor": "example",
+    "versionCode": 3010000,
+    "versionName": "3.1.0",
+    "icon": "$media:app_icon",
+    "label": "$string:app_name"
+  }
+}

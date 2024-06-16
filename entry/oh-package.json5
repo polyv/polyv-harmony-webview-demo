@@ -1,0 +1,12 @@
+{
+  "name": "entry",
+  "version": "3.1.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "plvwebsdk": "3.1.0-rc.1"
+  }
+}
+
