@@ -6,7 +6,7 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "plvwebsdk": "3.1.0-rc.2"
+    "plvwebsdk": "3.1.0"
   }
 }
 
