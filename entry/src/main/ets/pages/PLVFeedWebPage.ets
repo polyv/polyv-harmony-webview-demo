@@ -1,6 +1,6 @@
 import { PLVFeedData, PLVFeedWeb,
   PLVPullToRefreshConfigurator,
-  PLVUAConfig, PLVWebController, PLVWebViewConfig } from 'PLVWebSDK/Index'
+  PLVUAConfig, PLVWebController, PLVWebViewConfig } from 'plvwebsdk/Index'
 import ArrayList from '@ohos.util.ArrayList'
 
 

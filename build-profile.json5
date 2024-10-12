@@ -1,13 +1,32 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/lzj/.ohos/config/default_PLVHarmonyWebDemo_m5k4kqvCyU4vBt2MYwfLubGTKeIk57PIglDSlG5GcOg=.cer",
+          "storePassword": "0000001B24C5EF49EA6D0DEC9B61D26FC03695BD4ECF0A36F49FD8C193924466B4182762F673DD74C39726",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BB6731509E9BB009A9292373D948E38A44D997E367FE44DE6D8144FF7333FE0A23BC22D98CD101F",
+          "profile": "/Users/lzj/.ohos/config/default_PLVHarmonyWebDemo_m5k4kqvCyU4vBt2MYwfLubGTKeIk57PIglDSlG5GcOg=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/lzj/.ohos/config/default_PLVHarmonyWebDemo_m5k4kqvCyU4vBt2MYwfLubGTKeIk57PIglDSlG5GcOg=.p12"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
         "signingConfig": "default",
-        "compileSdkVersion": "4.1.0(11)",
-        "compatibleSdkVersion": "4.1.0(11)",
+        "compatibleSdkVersion": "5.0.0(12)",
         "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
       }
     ],
     "buildModeSet": [

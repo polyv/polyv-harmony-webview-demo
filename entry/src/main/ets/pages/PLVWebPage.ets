@@ -1,4 +1,4 @@
-import { PLVWeb, PLVCommonConstants, PLVWebController, PLVWebViewConfig } from "PLVWebSDK"
+import { PLVWeb, PLVCommonConstants, PLVWebController, PLVWebViewConfig } from "plvwebsdk"
 
 @Entry
 @Component

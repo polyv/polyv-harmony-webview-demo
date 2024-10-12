@@ -1,5 +1,5 @@
 import { router } from '@kit.ArkUI'
-import { PLVUAConfig, PLVWebViewWindowManager } from 'PLVWebSDK'
+import { PLVUAConfig, PLVWebViewWindowManager } from 'plvwebsdk'
 import ArrayList from '@ohos.util.ArrayList'
 
 let storage = LocalStorage.getShared()

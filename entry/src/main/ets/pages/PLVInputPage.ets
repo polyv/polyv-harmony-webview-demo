@@ -1,4 +1,4 @@
-import { PLVCommonConstants, PLVWebViewConfig, PLVWebViewWindowManager, PLVUAConfig, PLVUtils } from 'PLVWebSDK'
+import { PLVCommonConstants, PLVWebViewConfig, PLVWebViewWindowManager, PLVUAConfig, PLVUtils } from 'plvwebsdk'
 import router from '@ohos.router'
 
 let storage = LocalStorage.getShared()

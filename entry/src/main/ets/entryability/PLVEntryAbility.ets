@@ -1,6 +1,6 @@
 import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { window } from '@kit.ArkUI';
-import { PLVLogger, PLVWebViewWindowManager } from 'PLVWebSDK'
+import { PLVLogger, PLVWebViewWindowManager } from 'plvwebsdk'
 
 const TAG = "[PLVEntryAbility]"
 // const CONTENT = "pages/PLVInputPage"
