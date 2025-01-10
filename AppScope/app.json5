@@ -2,8 +2,8 @@
   "app": {
     "bundleName": "net.plv.harmony.webdemo",
     "vendor": "example",
-    "versionCode": 3020000,
-    "versionName": "3.2.0",
+    "versionCode": 3020100,
+    "versionName": "3.2.1",
     "icon": "$media:app_icon",
     "label": "$string:app_name"
   }

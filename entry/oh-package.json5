@@ -1,12 +1,12 @@
 {
   "name": "entry",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Please describe the basic information.",
   "main": "",
   "author": "",
   "license": "",
   "dependencies": {
-    "plvwebsdk": "3.2.0"
+    "plvwebsdk": "3.2.1"
   }
 }
 
