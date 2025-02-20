@@ -11,6 +11,14 @@
     {
       "name": "EntryAbility_label",
       "value": "PLVHarmonyWebDemo"
+    },
+    {
+      "name": "plv_permission_camera_reason",
+      "value": "连麦场景需要使用摄像头"
+    },
+    {
+      "name": "plv_permission_microphone_reason",
+      "value": "连麦场景需要使用麦克风"
     }
   ]
 }

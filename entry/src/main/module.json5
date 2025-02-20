@@ -40,6 +40,20 @@
       },
       {
         "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.CAMERA",
+        "reason": "$string:plv_permission_camera_reason",
+        "usedScene": {
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.MICROPHONE",
+        "reason": "$string:plv_permission_microphone_reason",
+        "usedScene": {
+          "when": "inuse"
+        }
       }
     ]
   }
