@@ -5,13 +5,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "./signing/default_polyv-harmony-webview-demo_q2dZFC7H7p3FADSGvqnUrQBfi5EdJsj7No_lBjIKN1g=.cer",
-          "storePassword": "0000001BC0C48CABCB32759CCDEC5CC5331B2AB4B96E69841EC5BB63A8CD544937371F01C85C0FE38F778E",
-          "keyAlias": "debugKey",
-          "keyPassword": "0000001BA7C25C36E7B3678BF5DFAE11E6705C14051836BF1C486CB66C12AF37CF3EEB05F296863F462BE6",
-          "profile": "./signing/default_polyv-harmony-webview-demo_q2dZFC7H7p3FADSGvqnUrQBfi5EdJsj7No_lBjIKN1g=.p7b",
+          "storeFile": "./signing/debug.p12",
+          "storePassword": "000000193B868CE49F76D6433ADA71F76A01DCBA0682E9D9005876729EE853F53BE8211DE4513FCCE4",
+          "keyAlias": "key",
+          "keyPassword": "00000019443B4DF4FE1C0796C5766EE946B6C493F1E279E6738D5F1066FC8CEC75BB3860C4EC7B251A",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "./signing/default_polyv-harmony-webview-demo_q2dZFC7H7p3FADSGvqnUrQBfi5EdJsj7No_lBjIKN1g=.p12"
+          "profile": "./signing/debug.p7b",
+          "certpath": "./signing/debug.cer"
         }
       }
     ],
