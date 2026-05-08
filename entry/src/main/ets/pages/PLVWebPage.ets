@@ -1,10 +1,11 @@
-import { PLVWeb, PLVCommonConstants, PLVWebController, PLVWebViewConfig } from "plvwebsdk"
+import { PLVWeb, PLVCommonConstants, PLVWebController, PLVWebViewConfig, PLVWebLayoutController } from "plvwebsdk"
 
 @Entry
 @Component
 struct PLVWebPage {
   @StorageLink('inputWebConfig') config: PLVWebViewConfig = new PLVWebViewConfig().setUrl("")
   @State controller: PLVWebController = new PLVWebController({ config: this.config!! })
+  @State layoutController: PLVWebLayoutController = new PLVWebLayoutController()
 
   aboutToAppear(): void {
     // this.controller.registerHandler("自定义事件", (data: string) => {
@@ -23,7 +24,7 @@ struct PLVWebPage {
 
   build() {
     Column() {
-      PLVWeb({ controller: this.controller })
+      PLVWeb({ controller: this.controller, layoutController: this.layoutController })
     }
     .width(PLVCommonConstants.FULL_PERCENT)
   }

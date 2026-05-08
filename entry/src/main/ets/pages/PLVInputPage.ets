@@ -7,7 +7,7 @@ let storage = LocalStorage.getShared()
 @Component
 struct PLVInputPage {
   inputUrl: string = 'https://www.polyv.net'
-  config: PLVWebViewConfig = new PLVWebViewConfig().setUa("Android" + PLVUAConfig.defaultUA)
+  config: PLVWebViewConfig = new PLVWebViewConfig().setUa(" Android" + PLVUAConfig.defaultUA)
     .setUrl(this.inputUrl)
     .setSupportAutoFloating(false)
     .setAllowFloatingWindow(true)
